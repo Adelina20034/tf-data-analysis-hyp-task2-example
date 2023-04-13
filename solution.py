@@ -8,4 +8,4 @@ def solution(x: np.array, y: np.array) -> bool:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-     return cramervonmises_2samp(x, y).pvalue < 0.1 # Ваш ответ, True или False
+     return cramervonmises_2samp(x, y).pvalue > 0.1 # Ваш ответ, True или False
